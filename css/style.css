@@ -1,15 +1,38 @@
 body {
     margin-left: 20px;
     font-family: 'Crimson Text', serif;
-
 }
 
-div {
+main {
     width: 80%;
+}
+
+article {
+    
     padding: 5px;
-
+   border-radius: 5%;
 }
 
-p {
-    width: 80%;
+a {
+    color: black;
+}
+
+a:hover {
+    color: maroon;
+}
+
+
+.elephant {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    
+    border-radius: 7%;
+    opacity: 0.85;
+}
+
+hr {
+    margin-top: 30px;
+    width: 70%;
+    
 }
