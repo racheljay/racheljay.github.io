@@ -10,7 +10,7 @@ body {
     margin-left: 10px;
 }
 
-.nav {
+/*.nav {
     display: flex;
     justify-content: flex-end;
     top: 0;
@@ -24,6 +24,7 @@ body {
     position: fixed;
     z-index: 3;
   }
+  */
   
   .nav-list {
     display: flex;
@@ -54,7 +55,7 @@ body {
     text-decoration: underline;
   }
 
-#blog-heading {
+  #blog-heading {
     display: block;
     margin: auto;
     text-align: center;
