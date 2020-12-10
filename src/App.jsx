@@ -20,9 +20,9 @@ class App extends React.Component {
 
   constructor() {
     super();
-    this.pages = ["Home", "Projects", "Links"];
+    this.pages = ["Blog", "Projects", "Links"];
     this.state = {
-      currentPage: "Home",
+      currentPage: "Projects",
     }
     this.setPage = this.setPage.bind(this);
   }
@@ -46,7 +46,7 @@ class App extends React.Component {
     <br/>
     <br/>
       {this.pages.map((item, index) => {
-        if(this.state.currentPage === "Home") {
+        if(this.state.currentPage === "Blog") {
           content =  <Blog />
         }else if(this.state.currentPage === "Projects") {
           content = <Projects />

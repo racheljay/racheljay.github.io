@@ -57,7 +57,7 @@ function Projects(props) {
 
       {/* <!--Row 2--> */}
 
-      <div className="card-deck">
+      <div className="card-deck mb-4">
 
 
         <div className="card">
@@ -93,6 +93,53 @@ function Projects(props) {
               <h5 className="card-title">Tic-Tac-Toe</h5>
               <p className="card-text"></p>
               <p className="card-text"><small className="text-muted">Frontend: Week 3</small></p>
+            </div>
+          </a>
+        </div>
+
+
+
+
+      </div>
+
+      {/* Row Three */}
+
+      <div className="card-deck mb-4">
+
+
+        <div className="card bg-light">
+          <a href="https://fishing-hooks-f357a.web.app/" target="_blank">
+            <img className="card-img-top" src="./img/fishinghooks.png" alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Fishing Hooks</h5>
+              <p className="card-text"></p>
+              <p className="card-text"><small className="text-muted"></small></p>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div className="card">
+          <a href="https://react-restaurant-73e80.web.app/" target="_blank">
+            <img className="card-img-top" src="img/reactrestaurant.png" alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">React Restaurant</h5>
+              <p className="card-text"></p>
+              <p className="card-text"><small className="text-muted"></small></p>
+            </div>
+          </a>
+        </div>
+
+
+
+        <div className="card bg-light">
+          <a href="https://knit-keeper-30b32.web.app/" target="_blank">
+            <img className="card-img-top" src="img/knitkeeper.png" alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Knit Keeper</h5>
+              <p className="card-text"></p>
+              <p className="card-text"><small className="text-muted">Final Project</small></p>
             </div>
           </a>
         </div>
