@@ -5,8 +5,14 @@ function Blog(props) {
     console.log(blogPosts)
     const posts = blogPosts.posts
     return (
-        <div className="container">
-            <h1>Rachel's Code Blog</h1>
+        <div className="container mt-3">
+            <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Bootcamp Blog:</h1>
+    <p class="lead">I really enjoyed my bootcamp experience at <a href="https://www.awesomeinc.org/" target="_blank">Awesome Inc</a>! As part of our coursework we kept up with weekly blog posts chronicling our learning process. Enjoy my ramblings about my coding struggles:</p>
+  </div>
+</div>
+
             {posts.map((item, index) => {
                 return (
                     <div key={index}>
