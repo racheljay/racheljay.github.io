@@ -1,11 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
-
 body {
   margin: 0;
   font-family: 'Zilla Slab', serif;
 }
 
+a {
+  color: maroon;
+}
+
+a:hover {
+  color: maroon;
+}
+
+nav {
+  box-shadow: 2px 2px 50px 2px #463f3f;
+}
+
+
+
+#landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 6em;
+  
+  background: #CAC531;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d4b500, #ffc525);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d4b500, #ffc525);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#landing > h1 {
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ac0606; 
+}
+
+#landing > h2 {
+  text-shadow: 3px 3px 3px #ac0606;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

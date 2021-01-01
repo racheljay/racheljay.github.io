@@ -8,13 +8,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Links(props) {
     return (
-        <div class="container-fluid mt-5 pt-2">
-        <div class="row text-center d-flex justify-content-center">
-          <h1 class="col-lg-12">Come find me</h1>
-        </div>
+        <div className="container-fluid" id="landing">
+          <h1 className="display-4">Where I live on the internet:</h1>
+        
         <br/>
-        <h4 class="row text-center d-flex justify-content-center">
-        <p class="col-12"><a href="https://github.com/racheljay" target="_blank"><FontAwesomeIcon icon={faGithub}  /> Github </a>
+        <h4 className="row text-center d-flex justify-content-center">
+        <p className="col-12"><a href="https://github.com/racheljay" target="_blank"><FontAwesomeIcon icon={faGithub}  /> Github </a>
           <a href="https://www.codewars.com/users/racheljay" target="_blank"><FontAwesomeIcon icon={faCode}  /> Codewars </a>
           <a href="https://www.instagram.com/racheljaymakes/" target="_blank"><FontAwesomeIcon icon={faInstagram}  /> Instagram </a>
           <a href="https://www.linkedin.com/in/racheljay42/" target="_blank"><FontAwesomeIcon icon={faLinkedin}  /> LinkedIn</a>
