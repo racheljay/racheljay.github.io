@@ -16,7 +16,33 @@ nav {
   box-shadow: 2px 2px 50px 2px #463f3f;
 }
 
+#about {
+  background: #CAC531;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d4b500, #ffc525);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d4b500, #ffc525);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  min-height: 100vh;
+}
 
+#about h1 {
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 2px darkred;
+}
+
+#about p {
+  font-size: 1.25rem;
+}
+
+
+#bio-pic {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+  border: 1px white;
+}
 
 #landing {
   min-height: 100vh;
@@ -25,7 +51,7 @@ nav {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 6em;
+  /* font-size: 6em; */
   
   background: #CAC531;
   /* fallback for old browsers */
@@ -34,14 +60,16 @@ nav {
   background: linear-gradient(to right, #d4b500, #ffc525);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+#hover:hover {
+text-decoration: underline;
+}
 #landing > h1 {
   font-weight: bold;
-  text-shadow: 3px 3px 3px #ac0606; 
+  text-shadow: 3px 3px 1px darkred; 
 }
 
 #landing > h2 {
-  text-shadow: 3px 3px 3px #ac0606;
+  text-shadow: 3px 3px 1px darkred;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

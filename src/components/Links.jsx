@@ -1,15 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 function Links(props) {
     return (
         <div className="container-fluid" id="landing">
-          <h1 className="display-4">Where I live on the internet:</h1>
+          <h1 className="display-4">Follow me:</h1>
         
         <br/>
         <h4 className="row text-center d-flex justify-content-center">

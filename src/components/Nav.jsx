@@ -17,8 +17,8 @@ function Nav(props) {
           <ul className="navbar-nav">
 
             <li className="nav-item">
-              <div
-                className={"nav-link "}>About<span className="sr-only">(current)</span></div>
+              <Link to="/about"
+                className={"nav-link "}>About<span className="sr-only">(current)</span></Link>
             </li>
 
             <li className="nav-item">
