@@ -37,6 +37,12 @@
             "week": "Frontend: Week 3"
         },
         {
+            "name": "To-Do List",
+            "link": "https://to-do-list-c2c89.web.app/",
+            "img": "img/to-do-list.png",
+            "week": "Frontend: Week 4"
+        },
+        {
             "name": "React Restaurant",
             "link": "https://react-restaurant-73e80.web.app/",
             "img": "img/reactrestaurant.png",
