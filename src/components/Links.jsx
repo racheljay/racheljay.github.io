@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
+import AppContext from '../utilities/AppContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 
 function Links(props) {
+
+  const {currentPage, setCurrentPage} = useContext(AppContext);
+
+	useEffect(() => {
+		setCurrentPage('links')
+  },[])
+  
     return (
         <div className="container-fluid" id="landing">
           <h1 className="display-4">Follow me:</h1>

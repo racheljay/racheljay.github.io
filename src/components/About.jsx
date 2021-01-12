@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faHtml5, faCss3Alt, faJs, faReact, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import AppContext from '../utilities/AppContext';
 
 
 function About() {
+	const {currentPage, setCurrentPage} = useContext(AppContext);
+
+	useEffect(() => {
+		console.log('about page')
+		setCurrentPage('about')
+	},[])
+
 	return (
 		<div id="about">
 

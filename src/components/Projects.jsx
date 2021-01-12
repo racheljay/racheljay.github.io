@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
 import projects from '../data/projects.json';
+import AppContext from '../utilities/AppContext';
+
 
 function Projects(props) {
-  console.log(projects.projects)
+  // console.log(projects.projects)
+
+  const {currentPage, setCurrentPage} = useContext(AppContext);
+
+	useEffect(() => {
+		setCurrentPage('projects')
+	},[])
   return (
     <div className="container mt-5 pt-3">
 

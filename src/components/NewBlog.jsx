@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
+import AppContext from '../utilities/AppContext';
 import newBlog from '../data/post-blogs.json'
 
 function NewBlog() {
+
+    const { currentPage, setCurrentPage } = useContext(AppContext);
+
+    useEffect(() => {
+        setCurrentPage('blogs')
+    }, [])
     const posts = newBlog.posts
-    return(
+    return (
         <div className="container mt-5">
             <div className="jumbotron jumbotron-fluid mt-4">
                 <div className="container">
@@ -24,7 +31,7 @@ function NewBlog() {
                     </div>
                 )
             })}
-           
+
         </div>
     )
 }

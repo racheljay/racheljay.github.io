@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 // import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Nav from './components/Nav';
 import LandingPage from './components/LandingPage';
 import About from './components/About';
@@ -12,39 +12,67 @@ import { AppProvider } from './utilities/AppContext';
 
 
 function App() {
-  return(
+
+  const [currentPage, setCurrentPage] = useState('');
+
+  const pages = [
+    {
+      page: '',
+      clicked: 'active'
+    },
+    {
+      page: 'About',
+      clicked: ''
+    },
+    {
+      page: 'Projects',
+      clicked: ''
+    },
+    {
+      page: 'Links',
+      clicked: ''
+    },
+    {
+      page: 'Blogs',
+      clicked: ''
+    }
+  ]
+
+  const initialContext = {
+    currentPage, setCurrentPage
+  }
+
+  return (
     <div className="App">
-    <Router>
-      <AppProvider>
-      <Nav/>
+      <Router>
+        <AppProvider value={initialContext}>
+          <Nav />
 
-      <Switch>
-          {/* <Route path="/about">
-            <About />
-          </Route> */}
-          <Route exact path="/">
-            <LandingPage/>
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/links">
-            <Links />
-          </Route>
-          <Route path="/bootcamp-blog">
-            <Blog/>
-          </Route>
-          <Route path="/postwork-blog">
-            <NewBlog/>
-          </Route>
-        </Switch>
+          <Switch>
 
-      </AppProvider>
-    </Router>
-          </div>
+            <Route exact path="/">
+              <LandingPage />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/links">
+              <Links />
+            </Route>
+            <Route path="/bootcamp-blog">
+              <Blog />
+            </Route>
+            <Route path="/postwork-blog">
+              <NewBlog />
+            </Route>
+          </Switch>
+
+        </AppProvider>
+      </Router>
+    </div>
   )
 }
 

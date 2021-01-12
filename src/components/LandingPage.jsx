@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
+import AppContext from '../utilities/AppContext';
 import {Link, useHistory} from 'react-router-dom';
 
 function LandingPage() {
+
+    const { currentPage, setCurrentPage } = useContext(AppContext);
+
+    useEffect(() => {
+        setCurrentPage('')
+    }, [])
 
     let history = useHistory();
     const handleClick = () => {

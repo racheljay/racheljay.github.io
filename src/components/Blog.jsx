@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
+import AppContext from '../utilities/AppContext';
+
 import blogPosts from '../data/blog-posts.json';
 
 function Blog(props) {
-    console.log(blogPosts)
+    const {currentPage, setCurrentPage} = useContext(AppContext);
+
+	useEffect(() => {
+		setCurrentPage('blogs')
+  },[])
+    // console.log(blogPosts)
     const posts = blogPosts.posts
     return (
         <div className="container mt-5">
