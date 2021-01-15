@@ -10,9 +10,6 @@ function Nav(props) {
 
   const {currentPage, setCurrentPage} = useContext(AppContext);
 
-// const handleClick = () => {
-
-// }
 
   return (
     <>

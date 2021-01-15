@@ -6,12 +6,12 @@ import AppContext from '../utilities/AppContext';
 
 
 function About() {
-	const {currentPage, setCurrentPage} = useContext(AppContext);
+	const { currentPage, setCurrentPage } = useContext(AppContext);
 
 	useEffect(() => {
 		console.log('about page')
 		setCurrentPage('about')
-	},[])
+	}, [])
 
 	return (
 		<div id="about">
@@ -21,27 +21,27 @@ function About() {
 				<h1 className="pt-4 mb-4 display-3 d-flex justify-content-center">Hi, I'm Rachel</h1>
 
 				<div className="row">
-					
+
 					<div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
-					<div className="text-align-center">
+						<div className="text-align-center">
 
-						<img src="img/Rachel_Jackson.jpg" id="bio-pic" alt="" />
+							<img src="img/Rachel_Jackson.jpg" id="bio-pic" alt="" />
 
-						<p className="text-center">
-					<FontAwesomeIcon icon={faHtml5} />
-						<FontAwesomeIcon icon={faCss3Alt} />
-						<FontAwesomeIcon icon={faBootstrap} />
-						<FontAwesomeIcon icon={faJs} />
-						<FontAwesomeIcon icon={faReact} />
-						<FontAwesomeIcon icon={faPhp} />
-						<FontAwesomeIcon icon={faLaravel} />
-						<FontAwesomeIcon icon={faDatabase} />
-						
-					</p>
-					</div>
-						
-							
-					
+							<p className="text-center">
+								<FontAwesomeIcon icon={faHtml5} />
+								<FontAwesomeIcon icon={faCss3Alt} />
+								<FontAwesomeIcon icon={faBootstrap} />
+								<FontAwesomeIcon icon={faJs} />
+								<FontAwesomeIcon icon={faReact} />
+								<FontAwesomeIcon icon={faPhp} />
+								<FontAwesomeIcon icon={faLaravel} />
+								<FontAwesomeIcon icon={faDatabase} />
+
+							</p>
+						</div>
+
+
+
 
 					</div>
 					<div className="col-lg-8 col-md-6 p-2 d-flex align-items-center">
@@ -55,7 +55,7 @@ function About() {
 					</div>
 				</div>
 
-				
+
 			</div>
 
 

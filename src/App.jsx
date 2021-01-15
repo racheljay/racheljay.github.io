@@ -15,28 +15,6 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState('');
 
-  const pages = [
-    {
-      page: '',
-      clicked: 'active'
-    },
-    {
-      page: 'About',
-      clicked: ''
-    },
-    {
-      page: 'Projects',
-      clicked: ''
-    },
-    {
-      page: 'Links',
-      clicked: ''
-    },
-    {
-      page: 'Blogs',
-      clicked: ''
-    }
-  ]
 
   const initialContext = {
     currentPage, setCurrentPage
