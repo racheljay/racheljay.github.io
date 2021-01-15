@@ -1,0 +1,145 @@
+{
+  "posts": [
+    {
+      "week": "Final Week!",
+      "date": "2020-12-11",
+      "content": [
+        "Overall I would say that bootcamp was a great experience. I feel like it forced me to learn a lot of things very quickly. It was very stressful, but like, good stress, ya know? I was very glad to be able to work amongst peers and also have access to knowledgable mentors to guide me along the way. I feel like I was exposed to a lot of knowledge and technology that I would not have encountered on my own in the wild.",
+        "I’m glad that I have been keeping this blog throughout the camp, because I really cannot believe how far I have come since the very beginning. It’s weird to think that there was a time when I was not only not using React, but also had no idea what it even is. That being said, React is probably one of my favorite things that I learned during this bootcamp. Hooks are basically the best thing in this whole entire world. I hope that I am able to get job using React, but even if I don’t, I think it would still be cool to learn other languages and other frameworks",
+        "It is bittersweet getting to the end. I will miss being in constant contact with my colleagues and teachers, but I hope that I can stay motivated and continue to keep teaching myself things. I know that I have accomplished a lot but I can’t help but feel that I still have a long way to go. Will it always feel like this? I don’t know. But probably."
+      ]
+    },
+    {
+      "week": "Full Stack: Week Eleven",
+      "date": "2020-12-04",
+      "content": [
+        "My first initial struggle with my final project was getting the user authentication functionality ironed out. It took me a long time to understand conceptually what it even means to be “logged in” exactly. Once I got through that hoop, the next one was figuring out how to use a users login status and bearer token to access their personal information from the database. After I got that figured out, it was smooth sailing for another good chunk of the project. That is, until I realized that I was leaning too heavily on the front end. I at first did not have good relationships set up in the database, and I was compensating for that by writing workarounds in React. It felt like all of my pages were being rendered by hastily taped together state variables.  It would have worked swimmingly except for the fact that any refreshing of the page caused everything to explode. Thankfully after strengthening up the back end I was able to solve the issue.",
+        "As far as pseudo coding goes… I will be honest. In the end of bootcamp panic all ideas about pseudo coding went out of the window. I suppose that developing the MVP was a bit like a more formal version of pseudo code. I feel like for this project I was able to get away with this because I did have my MVP and I used a lot of ideas and methods that I had worked on in previous projects.",
+        "In the future I will be sure to integrate more pseudo coding into my process. I kind of hate doing it, because it doesn’t ‘feel’ productive but I know that it definitely helps in the long run. It can only help to think through things in the beginning before getting deep into code and realizing that your ideas are not going to work."
+      ]
+    },
+    {
+      "week": "Full Stack: Week Ten",
+      "date": "2020-11-27",
+      "content": [
+        "So far I feel good about my idea for my final project. I feel I have had this idea in my head for awhile and I mostly know what features I would like for it to have. I think that my biggest struggle will come in setting up the back end and how I will get it to play nice with the front end. I also am a little unsure about how I will handle the function of allowing unregistered users to use the site. What I do feel confident about is my knowledge of React and my ability to use it and bootstrap to create a clean user interface.",
+        "The Agile Methodology has taken a little bit of time to get used to, but the more that I use it, the more I enjoy it. It does take time to think about user stories and to set up the Kansan board, but I think overall it is very helpful in helping to stay organized. Especially when there is a lot on your plate and it is easy to get overwhelmed. I know that I have trouble focusing on one thing at a time and I like the approach because it forces me to focus on getting one thing done at a time. I think it would be very difficult to complete a large scale project without this."
+      ]
+    },
+    {
+      "week": "Full Stack: Week Nine",
+      "date": "2020-11-20",
+      "content": [
+        "My thoughts on Laravel and React are still in development at this point. I am definitely much more comfortable with React than Laravel, which makes sense. I feel like Laravel is still a little scary because I can see that it goes very deep and I not super comfy with using it. However I am much more confident than I was at the beginning of last week. One thing that I really like about React, however, are the new react router things we learned this week. I didn’t have a chance to finish the whole video series this week while juggling the project, but I am excited to see more of what router is capable of.",
+        "As for my final project, I think I am going to stick with my knitting project planner idea. I think from the beginning it was kind of a save idea, so hopefully I will be able to get it finished. Hopefully. As for thing that will improve my work flow; I feel like just using React in general has made a lot of things flow a lot more smoothly. I like being able to mix jsx and html together, and each new add on we learn about seems to make it that much easier to use. As for Laravel, being able to use Artisan in the command line has been the biggest timesaver/ efficiency booster, but I’m sure the more I use it, the more my flow will improve.",
+        "At this point I have not applied to any jobs yet. I did make a Linkedin profile, but I still need to make a resume."
+      ]
+    },
+    {
+      "week": "Back End: Week Eight",
+      "date": "2020-11-13",
+      "content": [
+        "I feel like I have definitely come a long way since the beginning. I feel like I am able to think through problems a little bit easier, and I now have a backlog of projects to look back on to help me solve problems later on down the line. I feel like I have also gotten a little bit more comfortable with digging into documentation and being able to find the answers I need. I hope I can continue to learn in this way. One thing that I think would be helpful would be to make sure that I now the correct things to google, and to also keep up to date with articles and podcasts that are relevant with what is new and exciting in the tech world.",
+        "I feel like at this point I am struggling most with being able to connect all of the little pieces that I’ve learned together. I struggle with learning a new concept, thinking, ‘hey that’s neat’, and then being unsure of the best way to implement it into my current issue. As for gaps in the tech stack in general, I think that I have a few. I am still not the most comfortable with php in general or sql. But I feel like that makes sense, since I’ve been working with them the least amount of time. I think that I also struggled a bit with understanding how to use postman. But hopefully, the more I code, the more those gaps will shrink."
+      ]
+    },
+    {
+      "week": "Back End: Week Seven",
+      "date": "2020-11-06",
+      "content": [
+        "Hooray for the first week of back end! Before this week I didn’t really know anything about server side programming. One thing that I learned and thought was useful, is that I didn’t realize that php files supported html.  I also didn’t know that php was essentially meant to be used with sql. I mean honestly, I was going in completely blind so any information I learned was new information.",
+        "As we learn more about the back end side of programming I would definitely like to learn more about what all php is capable of. I feel like there are a lot of really useful built in functions that I have just barely scratched the surface on. That being said, learning php has been a little bit of a struggle. It’s a little bit tricky, because there are a few similarities, but there are also enough differences, that I still feel a little uneasy about how best to use it. Sort of like going up a familiar set of stairs, only to find out that there are several steps missing, and new ones where you didn’t expect any. I’m sure if I had started in php, I would probably be feeling the same way about JS. At this point php is still new and I prefer working in JS over all.",
+        "I definitely know there are some things that could be better if refactored from JS into php. The first thing that comes to mind are a few of the morning katas. For instance, I was very interested to learn that there is a built in function to reverse a string. The amount of times katas have made me reverse a string in JS! And this was here the whole time!",
+        "As far as my final project is concerned, I think multiple.js is something extra I might want to incorporate. I still like the idea of making some sort of knitting progress keeper and I feel like multiple.js is something that could make it really aesthetically pleasing. I’m hoping to be able to use it to display different bits of necessary information, like row and stitch counts. And maybe also use it as some sort of menu to be able to select projects from."
+      ]
+    },
+    {
+      "week": "Front End: Week Six",
+      "date": "2020-10-30",
+      "content": [
+        "Last week of pre-work! It is a little scary to change gears but I am also excited to move on to something new. Learning React has been a lot of fun, and I feel much more comfortable with it than I was last week. I am still struggling a little bit with having certain functionality taken away from me in the jsx portions of react. I keep wanting to include for loops and if statements and it does not like that. Not one bit. I am definitely trying to think about my projects in a different way. I am thinking more about the best ways to use state, data structures, and how to organize things together and spread them out so that they make sense.",
+        "For me the biggest win this week was definitely the fishing hooks project. I felt like I was able to get everything together very quickly, which is good, because I had spent most of the week cursing at the puzzle slider project. I wasn’t able to get it at full functionality. It still needs some extra logic, but for the little amount of time that I had, I am really happy with what I was able to come up with. I also really enjoyed using hooks. One of the things I struggled with in React was using Classes and state the best way possible. The state hook really made things a lot simpler and easy to understand.",
+        "For my final project, I still like the idea of my knitting project progress keeper. It seems very doable, especially whenever we start to learn database things. I like the idea of having control of my own database of projects. If anything I might be aiming a little small, but I’m excited to see what other kinds of functionality I could add to it."
+      ]
+    },
+    {
+      "week": "Front End: Week Five",
+      "date": "2020-10-23",
+      "content": [
+        "The command line is definitely scary. I think one of the most scary things about it, is the fact that it is so powerful. If you are not careful, you can wipe your entire computer. That is frightening. I have learned that it is an incredibly useful tool, however. It makes installing packages, navigating directories, and pushing out commits a breeze. As long as you have typed the correct command anyway. I don’t know that I would ever build my own CLI. I feel like I am just scratching the surface of what they are able to do, but maybe that is something for future me to look into.",
+        "As for things that would take a long time to do without a framework? I feel like that is a lot of things. One of the things React has really saved me time with, is updating my browser for me so that I don’t have to. It was always a headache wrestling with mamp and constantly having to clear my cache because it wasn’t displaying things correctly. With React I seem to have fewer issues. Also having the ability render my html in js has saved me a lot of time. I can render things by mapping and filtering, which saves a lot of time writing out a bunch of repeated tags.",
+        "At the end of this week I definitely feel much more tired than I did when I started, but I also feel like I have several successful projects under my belt. I definitely struggle when a new concept is introduced, but after I get my hands on it and see how it is used, I can feel myself using the same concepts over and over and adapting them to different situations. Once I use something a few times, I feel like the next project goes much faster, and the code makes a lot more sense."
+      ]
+    },
+    {
+      "week": "Front End: Week Four",
+      "date": "2020-10-16",
+      "content": [
+        "I feel like this was a weird week. I felt both very productive, and like I got nothing done. As far as JS libraries go, however, React seems like a very useful one. After the hours and hours of tutorials I went through this week, I can see how powerful of a framework this is. I like the fact that it cuts out any need to use mamp, and that you can also blend html and javascript in the same file with seemingly wild abandon. However, at this stage, it is still a bit convoluted to me. The price for these new powers seems to be extra file structures, and having to lots of importing/ exporting of code from one place to another. I am really looking forward to when these concepts get more comfortable, and less foreign to me.",
+        "I would definitely like to learn more about what React can do. I also feel like I have barely scratched to surface of how it can be used. I am excited to learn more about it. Just doing a quick google search, I know there are also lots of other frameworks and libraries out there. One in particular that caught my attention is Multiple.js. It allows you to take a background image and share it with multiple elements on a page. I think it would be really cool to implement in an aesthetically pleasing user interface."
+      ]
+    },
+    {
+      "week": "Front End: Week Three",
+      "date": "2020-10-09",
+      "content": [
+        "Week seven was definitely a doozy, but I made it through! In thinking forward to final project ideas, a few things I thought of could be: an app for saving and updating progress on knitting projects, some sort of online shop, or maybe a solitaire game? I don’t know about that last one though. I’m just pulling ideas out of my butt.",
+        "I feel like the more that I use javascript, the easier it becomes to use and the more uses I can find for it. I feel like I am at a point where I have a couple of projects under my belt that have given me a lot more confidence with different ways that I can use it. I feel like the part I am struggling with the most is being able to look at the big picture of a program. I feel like I am able to figure out the small pieces, but struggle to put them together.",
+        "I am definitely infestered in learning more about classes in javascript. I feel like it was a bit of a steep learning curve to have them introduced alongside something as complex as the calculator project. I feel like I am starting to get a vague grasp of what makes them work, but I know there’s a lot there to learn. I am excited to be able to implement them though, because I feel like they will be a very powerful tool.",
+        "I definitely like the idea of the MVC design pattern. It feels like a very natural design process to me and I feel like it might be what I’ve been doing subconsciously anyway. As for other design patterns, I remember that we discussed the factory pattern briefly. I feel like that is a good model of how inheritance works in the class structure."
+      ]
+    },
+    {
+      "week": "Front End: Week Two",
+      "date": "2020-10-02",
+      "content": [
+        "Hello week six! It feels really weird to be writing the post for this whole week on a Tuesday. But after feeling so behind all of last week, it feels good to have dived right in and be ahead of the game. One thing that really helped me this week was jumping into the actual work sooner and not bogging myself with reading. I tend to read through the material slowly and feel like I don’t retain much.",
+        "I feel like like the secret to writing good code is to think ahead as much as possible and plan things out. I found that pseudo coding came in really handy in the last couple of projects. Even just drawing shapes helps if I don’t know what to write. I have also been trying to make things as neat and readable as possible. I think being a good developer means that you are always willing to learn and collaborate with others. Also, when you collaborate, you can learn more things, faster! As for one thing that developers hate doing: I think that would have to be spending a lot of time on a solution and realizing that it’s not going to work and you have to delete it completely. Not that I have personal experience or anything."
+      ]
+    },
+    {
+      "week": "Front End: Week One",
+      "date": "2020-09-25",
+      "content": [
+        "I found this week to be very challenging. As I type this, I am still not done with my last project and I did not manage to complete any stretch goals. I’m not really sure that I can pinpoint what in particular held me back this week. I’m sure it was a lot of small factors, like getting used to a new environment, a long commute, and a brand new sleep schedule. But it also feels like everything I did took an excruciatingly long time. I feel like my brain is this loose, saggy muscle that hasn’t been used in a long time and has atrophied. Specifically, I struggled the most with the mind reader project.",
+        "At this point the thing I would like to learn more about is the practical applications of javascript. I feel like there are bits and pieces of it that I know and am comfortable with, but I am still struggling with connecting those pieces together to make something logical and cohesive. I don’t think there’s anything I can really do about this other that to simply write more code? I also like the idea of JSON, but am still a little foggy on specifics of how to use it, like how to make sure it’s linked correctly. As for data structures, I feel kind of okay with arrays and objects and how to access info from them and add and remove things. Strings on the other hand are the bane of my existence.",
+        "I felt pretty okay with using bootstrap and atomic design this week. I’m not sure that there’s anything specifically I would like to know more about. I feel pretty comfortable with basic design elements, and it feels like kind of a fluid process to me. A lot of moving things around until they look the most pretty. I found bootstrap to be a little bit clunky to use at times, but I’m sure the more I use it the more comfortable I will become."
+      ]
+    },
+    {
+      "week": "Prework: Week Four",
+      "date": "2020-09-18",
+      "content": [
+        "I can’t believe I’m at the end of week four! I am grateful for having had this grace period to sort of ease myself into the flow of things, but if I’m being perfectly honest, I am really ready to get the heck out of my house.",
+        "I would say that over all, I enjoyed the topics that were covered in pre work. A lot of things were review for me, but I learned some new things as well. I was intimidated by some of the new things at first, for instance, getting used to navigating a Mac OS, and using MAMP and Github. But now I feel like I’m at a place where I definitely feel more comfortable. Another big things for me was filling in the gaps in knowledge that I had. I have studied JS quite a bit on my own, but a lot of the things I was learning seemed abstract. For instance, I knew how to add and remove things from an array, but I had no context. Like, this is cool and all, but when would I use this and why? I have enjoyed working on practical projects that show me how to make that connection. No more writing useless code in a vacuum, but seeing how it translates to a real world application.",
+        "One of the complaints for me about the pre work period was the fact that it is done remotely. It was nice to have access to the slack channel and knowing that I had the option to ask for help via zoom, but I’ve been learning on my own for so long that I feel like my brain is wired to do everything by myself. I am much more likely to ask for help if there is a person physically nearby to ask. But that’s more on me than anything. My only other real dislike about pre work was the amount of reading. It was all good information, but there was a lot of it. I did feel a little bogged down by it at times.",
+        "But all in all this was a good week. The clock and timer projects were definitely tricky. I got stuck several times, but Google and the Mozilla docs were definitely my friends. I also looked at some projects that people had posted on code pen. I made sure though that I didn’t just copy and paste, especially since a lot of them included code that didn’t apply to what I was specifically wanting to do. But it definitely helped seeing different approaches to the same idea, and slowly breaking down the logic until I understood how it works and was able to apply it to my own code."
+      ]
+    },
+    {
+      "week": "Prework: Week Three",
+      "date": "2020-09-11",
+      "content": [
+        "Week three complete! Last week I felt very on top of my work load, unfortunately this week was a little more chaotic. Due to the long weekend I felt like I was lagging from the beginning. I also felt bogged down by the small mountain of reading, but managed to push through.",
+        "This week was a little bit of a mixed bag on how I felt about the material. Some of it was review, but there were also a few new concepts I learned about. Before this bootcamp I had used quite a bit of HTML, CSS, and JavaScript. But I never really understood how deep you can get into CSS. The sheer amount of different ways you can select things in an HTML document is very overwhelming. JavaScript was similar for me. I am pretty comfortable with a couple of key concepts that I have practiced a lot in the past. Loops for example. I love me a good for loop. I still find my self getting overwhelmed, however, when I try to put multiple concepts together, like when a function starts to get more and more layers, and when the variables add up. I start to get a little nervous and sweaty.",
+        "As for blog updates I played around a bit with adding a navbar at the top. I did cheat slightly. I copied it from a portfolio I put together when I was working through the free code camp curriculum. So… It is code that I wrote, I just wrote it over a year ago. I did have to tweak it to better fit this new blog situation. I also had fun playing with gradients and box shadow. I added some links new pages, now all I have to do is figure out some content to put on those pages."
+      ]
+    },
+    {
+      "week": "Prework: Week Two",
+      "date": "2020-09-04",
+      "content": [
+        "I made it through week two of code camp! Hooray! I feel like this week was much less overwhelming. Here’s to hoping I can keep up the pace. I was actually a little bit ahead of schedule, which you would think would be a good thing, but instead it just made me panic and feel like I must’ve forgotten something. I will admit, I was kind of dreading the pseudo coding assignment this week, but as I got into it, I found myself enjoying it. I was reminded of the saying, “how do you eat an elephant?”. Simple answer, one piece at a time.",
+        "I decided to write pseudo code for my computerized sewing machine. I think it helped to choose an object with a very simple computer that I am already familiar with. Even still, it was still quite a challenge. It was very intimidating to see it as “the whole elephant”, but by taking it one piece at a time I was able to get through it. The hardest part was figuring out one piece of the puzzle, only to realize that in order for that piece to make sense, you need three other pieces to back it up. Or not being able to find a piece that you need, only to realize it was in front of you the whole time. You just gave it a stupid name.",
+        "I am sure the more that I pseudo code, the more comfortable I will become with it. I think one of my struggles in the past with coding, has been getting too wrapped up in syntax and method, but having no idea how it applies to the big picture. I am excited to get better at pseudo code to help me better visualize the big picture."
+      ]
+    },
+    {
+      "week": "Prework: Week One",
+      "date": "2020-08-28",
+      "content": [
+        "My first week of bootcamp went about how I expected it too. There has certainly been a lot of new information to absorb. Like, seriously, a lot of information. It has been a bit overwhelming but I at least feel more knowledgeable than I did at the beginning of the week. So far my biggest struggle as been with using Git and GitHub. Although I’m sure the more I use it, to more sense it will make to me. I actually had to set up the files for this blog twice, because I accidentally overrode my first index file with an older version. I didn’t know what to do so I just deleted everything and started over, but I did feel more confident setting it up the second time. I am excited to learn more about Git and GitHub, since I am sure we will be using it a lot."
+      ]
+    }
+  ]
+}

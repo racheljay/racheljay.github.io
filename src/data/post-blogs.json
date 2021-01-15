@@ -1,0 +1,15 @@
+{
+    "posts": [
+        {
+            "title": "December Wrap Up",
+            "date": "2021-01-03",
+            "content": [
+              "Happy new year! I will admit, December was a slow month for me, as it probably was for a lot of people, but I think a little bit of down time was deserved after finishing a whole bootcamp! Holy crap! But don’t worry, I didn’t just veg out for the whole rest of the year. Here are some of the highlights:",
+              "I finished some code wars katas! I have a bit of a love hate relationship with code wars. It is an excellent way to work your brain and really think about logic problems. It can also be very rage inducing.  There was one kata I was pleased with specifically. At first glance I was sure I would have to use a nested loop, which seems messy, and a bit slow. I was able to solve it without having to use a nested loop by using sort and building an object instead. Not the shortest or cleanest code I’ve written, but I feel like it was a unique way to approach the problem.",
+              "I attended my first networking event! I will be honest. I hate the idea of networking. I am an introvert, and I also hate ‘schmoozing’ and trying to sell myself. But this one was actually super fun. I attended the Women, Innovators, Founders & Leaders meetup for December. Even though it was more of a casual ‘Christmas Party’ meetup (via Zoom), I feel like I was still able to make some good connections and gain useful information.",
+              "I applied for some jobs! I know that this will probably be a lengthy and ongoing process, but I got the ball rolling at least. Applying for the first job was the most nerve wracking. Completely changing career paths like this is very stressful. The imposter syndrome is real, since I’ve never actually worked in this field before. I hope an employer will take pity on me soon and put me out of my job hunting misery, but until then, I’m going to keep working on my portfolio, sharpening my skills, and learning new things."
+            ]
+          }
+          
+    ]
+}
