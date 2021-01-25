@@ -4,7 +4,7 @@ import AppContext from '../utilities/AppContext';
 
 
 function Projects(props) {
-  // console.log(projects.projects)
+  console.log(projects.projects)
 
   const {currentPage, setCurrentPage} = useContext(AppContext);
 
