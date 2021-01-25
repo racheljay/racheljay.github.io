@@ -37,6 +37,12 @@
             "week": "Frontend: Week 3"
         },
         {
+            "name": "Calculator",
+            "link": "https://react-calculator-9a6df.web.app/",
+            "img": "img/calc.png",
+            "week": "Frontend: Week 3"
+        },
+        {
             "name": "To-Do List",
             "link": "https://to-do-list-c2c89.web.app/",
             "img": "img/to-do-list.png",
