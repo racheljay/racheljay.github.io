@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import projects from '../data/projects.json';
 import AppContext from '../utilities/AppContext';
 
@@ -8,8 +8,11 @@ function Projects(props) {
 
   const {currentPage, setCurrentPage} = useContext(AppContext);
 
+  const [content, setContent] = useState([])
+
 	useEffect(() => {
-		setCurrentPage('projects')
+    setCurrentPage('projects')
+    setContent(projects.projects)
 	},[])
   return (
     <div className="container mt-5 pt-3">
@@ -21,7 +24,7 @@ function Projects(props) {
       </div>
 
       <div className="row">
-        {projects.projects.map((item, index) => {
+        {content.reverse().map((item, index) => {
           return (
             <div className="col-md-4 mb-4" key={index}>
               <a href={item.link} target="_blank">
