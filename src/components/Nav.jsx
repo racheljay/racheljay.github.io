@@ -8,7 +8,9 @@ import AppContext from '../utilities/AppContext';
 
 function Nav(props) {
 
-  const {currentPage, setCurrentPage} = useContext(AppContext);
+  const {currentPage} = useContext(AppContext);
+
+  
 
 
   return (
@@ -29,7 +31,8 @@ function Nav(props) {
 
             <li className="nav-item">
               <Link to="/projects"
-                className={"nav-link " + (currentPage === 'projects' ? "active" : "")}>Projects<span className="sr-only">(current)</span></Link>
+                className={"nav-link " + (currentPage === 'projects' ? "active" : "")}
+                >Projects<span className="sr-only">(current)</span></Link>
             </li>
 
             <li className="nav-item">

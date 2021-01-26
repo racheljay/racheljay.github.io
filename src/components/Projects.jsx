@@ -6,13 +6,18 @@ import AppContext from '../utilities/AppContext';
 function Projects(props) {
   console.log(projects.projects)
 
-  const {currentPage, setCurrentPage} = useContext(AppContext);
+  const {setCurrentPage, flipped, setFlipped} = useContext(AppContext);
 
-  const [content, setContent] = useState([])
+  const [content, setContent] = useState(projects.projects)
 
 	useEffect(() => {
     setCurrentPage('projects')
-    setContent(projects.projects)
+    if(!flipped) {
+      setContent(content.reverse())
+    }
+    setFlipped(true)
+    console.log(flipped)
+
 	},[])
   return (
     <div className="container mt-5 pt-3">
@@ -24,7 +29,7 @@ function Projects(props) {
       </div>
 
       <div className="row">
-        {content.reverse().map((item, index) => {
+        {content.map((item, index) => {
           return (
             <div className="col-md-4 mb-4" key={index}>
               <a href={item.link} target="_blank">
