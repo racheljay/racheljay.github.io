@@ -4,67 +4,78 @@
             "name": "Digital Clock",
             "link": "https://racheljay.github.io/digital-clock/",
             "img": "./img/clock-screenshot600.png",
-            "week": "Prework: Week Four"
+            "week": "Prework: Week Four",
+            "repo": "https://github.com/racheljay/digital-clock"
         },
         {
             "name": "Countdown Timer",
             "link": "https://ominous-countdown.web.app/",
             "img": "img/countdown-screenshot600.png",
-            "week": "Prework: Week Four"
+            "week": "Prework: Week Four",
+            "repo": "https://github.com/racheljay/react-countdown"
         },
         {
             "name": "Campaign Components",
             "link": "https://racheljay.github.io/campaign-components/",
             "img": "img/campaign-screenshot600.png",
-            "week": "Frontend: Week 1"
+            "week": "Frontend: Week 1",
+            "repo": "https://github.com/racheljay/campaign-components"
         },
         {
             "name": "Mind Reader",
             "link": "https://racheljay.github.io/mind-reader/",
             "img": "img/mindreader600.png",
-            "week": "Frontend: Week 1"
+            "week": "Frontend: Week 1",
+            "repo": "https://github.com/racheljay/mind-reader"
         },
         {
             "name": "Weather App",
             "link": "https://racheljay.github.io/async-weather-app/",
             "img": "img/weather600.png",
-            "week": "Frontend: Week 2"
+            "week": "Frontend: Week 2",
+            "repo": "https://github.com/racheljay/async-weather-app"
         },
         {
             "name": "Tic-Tac-Toe",
             "link": "https://racheljay.github.io/tic-tac-toe",
             "img": "img/tictac600.png",
-            "week": "Frontend: Week 3"
+            "week": "Frontend: Week 3",
+            "repo": "https://github.com/racheljay/tic-tac-toe"
         },
         {
             "name": "Calculator",
             "link": "https://react-calculator-9a6df.web.app/",
             "img": "img/calc.png",
-            "week": "Frontend: Week 3"
+            "week": "Frontend: Week 3",
+            "repo": "https://github.com/racheljay/react-calculator"
         },
         {
             "name": "To-Do List",
             "link": "https://to-do-list-c2c89.web.app/",
             "img": "img/to-do-list.png",
-            "week": "Frontend: Week 4"
+            "week": "Frontend: Week 4",
+            "repo": "https://github.com/racheljay/to-do-list"
         },
         {
             "name": "React Restaurant",
             "link": "https://react-restaurant-73e80.web.app/",
             "img": "img/reactrestaurant.png",
-            "week": "Frontend: Week 5"
+            "week": "Frontend: Week 5",
+            "repo": "https://github.com/racheljay/react-restuarant"
         },
         {
             "name": "Fishing Hooks",
             "link": "https://fishing-hooks-f357a.web.app/",
             "img": "./img/fishinghooks.png",
-            "week": "Frontend: Week 6"
+            "week": "Frontend: Week 6",
+            "repo": "https://github.com/racheljay/fishing-hooks"
         },
         {
             "name": "Knit Keeper",
             "link": "https://knit-keeper-30b32.web.app/",
             "img": "img/knitkeeper.png",
-            "week": "Final Project"
+            "week": "Final Project",
+            "repo": "https://github.com/racheljay/knit-keeper-react"
         }
     ] 
 }
