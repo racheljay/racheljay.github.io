@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-// import './App.css';
+import React, {useEffect, useState} from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Nav from './components/Nav';
 import LandingPage from './components/LandingPage';
@@ -14,11 +13,15 @@ import { AppProvider } from './utilities/AppContext';
 function App() {
 
   const [currentPage, setCurrentPage] = useState('');
+  const [flipped, setFlipped] = useState(false);
   
-
+  useEffect(() => {
+    console.log(flipped)
+  })
 
   const initialContext = {
-    currentPage, setCurrentPage
+    currentPage, setCurrentPage,
+    flipped, setFlipped
   }
 
   return (
