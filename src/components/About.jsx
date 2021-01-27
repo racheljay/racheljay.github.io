@@ -25,7 +25,7 @@ function About() {
 					<div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
 						<div className="text-align-center">
 
-							<img src="img/Rachel_Jackson.jpg" id="bio-pic" alt="" />
+							<img src="img/umbrella.png" id="bio-pic" alt="" />
 
 							<p className="text-center">
 								<FontAwesomeIcon icon={faHtml5} />

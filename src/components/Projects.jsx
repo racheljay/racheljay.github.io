@@ -40,12 +40,26 @@ function Projects(props) {
                   <img className="card-img-top" src={item.img} alt="Card image cap" />
                 </a>
                 <div className="card-body">
-                  <a href={item.link} target="_blank">
+                  <div className="row">
+
+                  <div className="col-9" href={item.link} target="_blank">
+                    <a href={item.link} targe="_blank">
+
 
                     <h5 className="card-title">{item.name}</h5>
                     <p className="card-text">{item.week}</p>
-                  </a>
-                  <h5 className="card-text"><FontAwesomeIcon icon={faGithub} /></h5>
+                    </a>
+                  </div>
+
+                  <div className="col-3">
+
+                  <h3 className="card-text pt-2"><a href={item.repo} target="_blank"><FontAwesomeIcon icon={faGithub} /></a></h3>
+                  </div>
+
+
+                  </div>
+
+
                 </div>
               </div>
 
