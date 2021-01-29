@@ -1,15 +1,25 @@
 {
-    "posts": [
-        {
-            "title": "December Wrap Up",
-            "date": "2021-01-03",
-            "content": [
-              "Happy new year! I will admit, December was a slow month for me, as it probably was for a lot of people, but I think a little bit of down time was deserved after finishing a whole bootcamp! Holy crap! But don’t worry, I didn’t just veg out for the whole rest of the year. Here are some of the highlights:",
-              "I finished some code wars katas! I have a bit of a love hate relationship with code wars. It is an excellent way to work your brain and really think about logic problems. It can also be very rage inducing.  There was one kata I was pleased with specifically. At first glance I was sure I would have to use a nested loop, which seems messy, and a bit slow. I was able to solve it without having to use a nested loop by using sort and building an object instead. Not the shortest or cleanest code I’ve written, but I feel like it was a unique way to approach the problem.",
-              "I attended my first networking event! I will be honest. I hate the idea of networking. I am an introvert, and I also hate ‘schmoozing’ and trying to sell myself. But this one was actually super fun. I attended the Women, Innovators, Founders & Leaders meetup for December. Even though it was more of a casual ‘Christmas Party’ meetup (via Zoom), I feel like I was still able to make some good connections and gain useful information.",
-              "I applied for some jobs! I know that this will probably be a lengthy and ongoing process, but I got the ball rolling at least. Applying for the first job was the most nerve wracking. Completely changing career paths like this is very stressful. The imposter syndrome is real, since I’ve never actually worked in this field before. I hope an employer will take pity on me soon and put me out of my job hunting misery, but until then, I’m going to keep working on my portfolio, sharpening my skills, and learning new things."
-            ]
-          }
-          
-    ]
+  "posts": [
+    {
+      "title": "January Wrap Up",
+      "date": "2021-01-28",
+      "content": [
+        "This has not only been the first full month of 2021 but also my first full month outside of bootcamp. After a bit of a bumpy start, I think I have finally settled into a steady work flow.",
+        "Last month I was having trouble staying organized so I decided to schedule out my days, hour by hour on google calendar. This turned out to not work for me at all. I would miss things and then feel awful for falling behind, which would then start a domino effect of low productivity and frustration for the rest of the day. After about a week of this, I transitioned to a much more simple schedule of job hunting before lunch, and then coding in the afternoon. Starting with a job application feels like an easy win and gets me pumped for the rest of my day. So far this is working for me a lot better.",
+        "Speaking of job applications, I have been doing a lot of them! I have mostly been able to stick to my goal which is to try and apply for at least one job a day. I have gotten a few rejections so far, but I am trying to stay motivated. It has been a little frustrating, because there seems to be a lot of demand for senior developers, or for developers who know languages I haven’t learned yet, and not very much demand for junior developers. This has been a little discouraging, but the only thing I can do is keep moving forward, keep applying, and keep learning.",
+        "I have also been able to get some work done on refactoring some of my old projects. This portfolio is something that I seem to be constantly tweaking, but I was also able to add two new projects to my projects page this month! I now have a completed todo list and a calculator! The todo list was our first project with React, and I remember struggling with it quite a bit. It was kind of funny to go back and perk it up now that I have so much more experience under my belt. The calculator was one of our last vanilla JS projects, and that was definitely a big challenge during week 3. I pretty much started that project from scratch, once again using React. It was still a bit of a challenge, and it still needs additional work, but I am proud of the basic functionality I have currently. I plan to revisit it and add improvements and also look at some of my other projects very soon.",
+        "Next month, I am hoping to keep going strong with getting a lot of applications in, and to also get plugged into some more networking events. I feel there was not too much going on in January, what with people slowly getting back into the groove after Christmas. I am definitely looking to make some more professional connections and to get my name out into the world. This month had its ups and downs for sure, but I am determined to keep moving onward and upward."
+      ]
+    },
+    {
+      "title": "December Wrap Up",
+      "date": "2021-01-03",
+      "content": [
+        "Happy new year! I will admit, December was a slow month for me, as it probably was for a lot of people, but I think a little bit of down time was deserved after finishing a whole bootcamp! Holy crap! But don’t worry, I didn’t just veg out for the whole rest of the year. Here are some of the highlights:",
+        "I finished some code wars katas! I have a bit of a love hate relationship with code wars. It is an excellent way to work your brain and really think about logic problems. It can also be very rage inducing.  There was one kata I was pleased with specifically. At first glance I was sure I would have to use a nested loop, which seems messy, and a bit slow. I was able to solve it without having to use a nested loop by using sort and building an object instead. Not the shortest or cleanest code I’ve written, but I feel like it was a unique way to approach the problem.",
+        "I attended my first networking event! I will be honest. I hate the idea of networking. I am an introvert, and I also hate ‘schmoozing’ and trying to sell myself. But this one was actually super fun. I attended the Women, Innovators, Founders & Leaders meetup for December. Even though it was more of a casual ‘Christmas Party’ meetup (via Zoom), I feel like I was still able to make some good connections and gain useful information.",
+        "I applied for some jobs! I know that this will probably be a lengthy and ongoing process, but I got the ball rolling at least. Applying for the first job was the most nerve wracking. Completely changing career paths like this is very stressful. The imposter syndrome is real, since I’ve never actually worked in this field before. I hope an employer will take pity on me soon and put me out of my job hunting misery, but until then, I’m going to keep working on my portfolio, sharpening my skills, and learning new things."
+      ]
+    }
+  ]
 }
