@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "title": "February Wrap Up",
+      "date": "2021-03-01",
+      "content": [
+        "It’s been officially two full months since bootcamp. What have I been up to?",
+
+        "This month I got very frustrated with seeing so many job listings requesting languages that I don’t know. So this month I decided to pick up Python! I did a couple of basic code-alongs and I really enjoy it so far. I find it very readable and it seems to have a lot of good libraries that you can import from. I decided to push my progress to GitHub and keep a readme file with notes on what I’ve learned doing each new project, so that I can look back on it later. It has been a little odd getting used to the syntax. I almost feel naked without all of my {} and ;.",
+
+        "That being said, halfway through the month I suddenly had several leads for PHP jobs so I had to suddenly shift gears and go back into PHP mode. I have a love hate relationship with PHP. It is definitely not my favorite language to work with, but it does have a lot of great built in functions. And most of those functions have entertaining names. So there’s that. I definitely have a lot more to learn about PHP though. One interview I had gave me a PHP assignment that I felt totally lost with. I think that I am pretty comfortable with the basic syntax, but I still struggle with some of the more advanced features that PHP has. In this assignment, I wasn’t even sure what to google to figure out how to accomplish what I needed to do, so that was very frustrating. During bootcamp, most of what we did with PHP was directly involved in using Laravel, so I feel a little lost without a framework. But if I keep getting PHP leads, I guess I’m going to have to change that.",
+
+        "In other news, I was also able to get started with my side-gig this month! (Actually if I’m being honest, I’m still unemployed. It’s my only gig). I’m an after school coding coach! I’ve only attended one session so far, but I already love it. Basically I am there to help kids along while they learn Python amongst other things. The key is offering help, but not solutions. After all learning how to learn is what’s most important. I’m really glad Awesome Inc has this program, and I wish I’d had access to something similar when I was young.",
+
+        "Now let’s talk about the job search. There have been many ups and downs for sure. I have mostly been able to keep up with my goal of applying to at least one job per day, if not more. I’ve been trying to personalize my cover letter and resume for each position, but some companies are harder to do that with than others. It’s sometimes hard to explain why I want to work somewhere when I am not even fully aware of what they do. I’ve had a couple of interviews this month but the feedback has been mostly the same. “You know, we’re really looking for someone with more experience”.  I’ve seen a lot of memes about how difficult it is to find entry level jobs in this field. Most of them point out all of the unrealistic expectations a lot of companies have, but without offering any real solutions. They’re just like, “Haha, yeah. Good luck!”. Anyway, as frustrating as it is there’s nowhere to go but forward. Onward! Never give up. Never surrender."
+      ]
+    },
+    {
       "title": "January Wrap Up",
       "date": "2021-01-28",
       "content": [
