@@ -4,13 +4,7 @@ import AppContext from '../utilities/AppContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-// {
-//   "name": "Mind Reader",
-//   "link": "https://racheljay.github.io/mind-reader/",
-//   "img": "img/mindreader600.png",
-//   "week": "Frontend: Week 1",
-//   "repo": "https://github.com/racheljay/mind-reader"
-// },
+
 
 
 function Projects(props) {
