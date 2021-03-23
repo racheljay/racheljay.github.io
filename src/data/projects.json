@@ -21,7 +21,13 @@
             "week": "Frontend: Week 1",
             "repo": "https://github.com/racheljay/campaign-components"
         },
-
+        {
+            "name": "Mind Reader",
+            "link": "https://mind-reader-538bb.web.app/",
+            "img": "img/mind-reader-react.png",
+            "week": "Frontend: Week 1",
+            "repo": "https://github.com/racheljay/mind-reader"
+          },
         {
             "name": "Weather App",
             "link": "https://racheljay.github.io/async-weather-app/",
