@@ -1,6 +1,21 @@
 {
   "posts": [
     {
+      "title": "March Wrap Up",
+      "date": "2021-03-31",
+      "content": [
+        "Three months into the job hunt. And still we press on.",
+
+        "This has definitely been a month of both highs and lows. On the plus side, I feel as though I had a lot of interviews and job leads this month. But on the less positive side, most of those leads turned into rejections. It is not a great feeling to do a lot of prep work and practice for an interview, think it has gone well, and then receive a no. I suppose one good thing to come out of this is that it forced me to become more comfortable with PHP and mySQL. I won’t lie and say that backend is my favorite part of development, but I know that it is an area that I can continue to improve in.",
+
+        "After receiving so many no thank you’s, I retreated back to my happy place to get some easy wins. It’s React. My happy place is React. I finished converting my old Mind Reader project (which was not as seamless as I thought it was going to be), and allowed myself to have some fun playing with styling and picking out nice fonts and icons. Like I mentioned, it was definitely not as simple and straightforward as I thought it was going to be, but definitely a good refresher and good practice for keeping my React skills sharp. I also got some good practice with stepping in when Bootstrap and custom CSS decide that they are going to wage war with one another. Don’t worry, a truce was achieved.",
+
+        "For this next month I will be changing gears again but only slightly. After losing a bunch of PHP opportunities, I wound up with a bunch of Wordpress ones. So still some PHP. Wordpress has been one of those things that I have been avoiding, because I have heard it can be frustrating to use, especially if you are a developer. I’ve not had much experience with CMS in general, since my projects have all be small and it made sense to do everything from scratch. So this will be something new to learn. Thankfully, as always, Free Code Camp has my back and I have their free five hour Wordpress course on my to watch list.",
+
+        "Bonus Paragraph: Okay so this has nothing to do with code, but is relevant to being a lifelong learner, so I’m gonna talk about it anyway. 안녕하세요! I’ve decided to learn Korean! I think it’s a beautiful language and it’s been really interesting learning a new alphabet and sounding out words like a small child again. Flashback to being in kindergarten and learning about The Letter People for the first time. There’s nothing like being caught up in the excitement of learning something new and making slow but gradual progress. With all of the work I have put into coding recently, it has been nice to pick up a new skill that’s not for work or a potential job, but just for me, and for my own fun and personal enjoyment."
+      ]
+    },
+    {
       "title": "February Wrap Up",
       "date": "2021-03-01",
       "content": [
