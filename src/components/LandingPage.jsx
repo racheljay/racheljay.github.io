@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import AppContext from '../utilities/AppContext';
-import {Link, useHistory} from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
+import Typist from 'react-typist';
 
 function LandingPage() {
 
@@ -15,15 +16,15 @@ function LandingPage() {
         history.push('/about')
     }
     return (
-        <div className="container-fluid" id="landing" onClick={handleClick}>
-            
+        <Typist>
+            <div className="container-fluid" id="landing" onClick={handleClick}>
 
-            <h1 className="display-2">Rachel Jackson</h1>
-            <h2 className="display-4">&lt; Web Developer /&gt;</h2>
-            {/* <Link to="/about">
-                <button className="btn btn-warning">About</button>
-            </Link> */}
-        </div>
+
+                <h1 className="display-2">Rachel Jackson</h1>
+                <h2 className="display-4">&lt; Web Developer /&gt;</h2>
+
+            </div>
+        </Typist>
     )
 }
 
