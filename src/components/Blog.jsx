@@ -4,19 +4,20 @@ import AppContext from '../utilities/AppContext';
 import blogPosts from '../data/blog-posts.json';
 
 function Blog(props) {
-    const {currentPage, setCurrentPage} = useContext(AppContext);
+    const { setCurrentPage} = useContext(AppContext);
 
 	useEffect(() => {
 		setCurrentPage('blogs')
-  },[])
-    // console.log(blogPosts)
+  },[setCurrentPage])
     const posts = blogPosts.posts
     return (
         <div className="container mt-5">
             <div className="jumbotron jumbotron-fluid mt-4">
                 <div className="container">
                     <h1 className="display-4">Bootcamp Blog:</h1>
-                    <p className="lead">I really enjoyed my bootcamp experience at <a href="https://www.awesomeinc.org/" target="_blank">Awesome Inc</a>! As part of our coursework we kept up with weekly blog posts chronicling our learning process. Enjoy my ramblings about my coding struggles:</p>
+                    <p className="lead">
+                        I really enjoyed my bootcamp experience at 
+                        <a href="https://www.awesomeinc.org/" target="_blank" rel="noopener noreferrer">Awesome Inc</a>! As part of our coursework we kept up with weekly blog posts chronicling our learning process. Enjoy my ramblings about my coding struggles:</p>
                 </div>
             </div>
 

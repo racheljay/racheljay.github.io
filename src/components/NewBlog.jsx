@@ -4,11 +4,11 @@ import newBlog from '../data/post-blogs.json'
 
 function NewBlog() {
 
-    const { currentPage, setCurrentPage } = useContext(AppContext);
+    const { setCurrentPage } = useContext(AppContext);
 
     useEffect(() => {
         setCurrentPage('blogs')
-    }, [])
+    }, [setCurrentPage])
     const posts = newBlog.posts
     return (
         <div className="container mt-5">

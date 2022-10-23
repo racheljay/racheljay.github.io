@@ -1,15 +1,15 @@
 import React, { useContext, useEffect } from 'react';
 import AppContext from '../utilities/AppContext';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import Typist from 'react-typist';
 
 function LandingPage() {
 
-    const { currentPage, setCurrentPage } = useContext(AppContext);
+    const { setCurrentPage } = useContext(AppContext);
 
     useEffect(() => {
         setCurrentPage('')
-    }, [])
+    }, [setCurrentPage])
 
     let history = useHistory();
     const handleClick = () => {
@@ -17,11 +17,10 @@ function LandingPage() {
     }
     return (
         <Typist>
-            <div className="container-fluid" id="landing" onClick={handleClick}>
+            <div className="container-fluid" id="landing" onClick={handleClick} style={{cursor: "pointer"}}>
 
-
-                <h1 className="display-2">Rachel Jackson</h1>
-                <h2 className="display-4">&lt; Web Developer /&gt;</h2>
+                <h1 className="display-2">Rachel Russell</h1>
+                <h2 className="display-4">&lt; Software Engineer /&gt;</h2>
 
             </div>
         </Typist>
