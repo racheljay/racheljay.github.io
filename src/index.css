@@ -13,7 +13,7 @@ a:hover {
 }
 
 nav {
-  box-shadow: 2px 2px 50px 2px #463f3f;
+  box-shadow: 0px 0.1px 10px #463f3f;
 }
 
 #about {
@@ -43,6 +43,15 @@ nav {
   border-radius: 50%;
 }
 
+.card-text {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
 #landing {
   min-height: 100vh;
   display: flex;
@@ -65,10 +74,16 @@ text-decoration: underline;
 #landing > h1 {
   font-weight: bold;
   text-shadow: 3px 3px 1px darkred; 
+  pointer-events: fill;
+}
+
+#github-logo {
+  font-size: 40px;
 }
 
 #landing > h2 {
   text-shadow: 3px 3px 1px darkred;
+  pointer-events: fill;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

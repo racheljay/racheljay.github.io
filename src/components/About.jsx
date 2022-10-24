@@ -1,17 +1,16 @@
 import React, { useEffect, useContext } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBootstrap, faHtml5, faCss3Alt, faJs, faReact, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBootstrap, faHtml5, faCss3Alt, faJs, faReact, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons';
+// import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import AppContext from '../utilities/AppContext';
 
 
 function About() {
-	const { currentPage, setCurrentPage } = useContext(AppContext);
+	const { setCurrentPage } = useContext(AppContext);
 
 	useEffect(() => {
-		console.log('about page')
 		setCurrentPage('about')
-	}, [])
+	}, [setCurrentPage])
 
 	return (
 		<div id="about">
@@ -27,7 +26,7 @@ function About() {
 
 							<img src="img/umbrella.png" id="bio-pic" alt="" />
 
-							<p className="text-center">
+							{/* <p className="text-center">
 								<FontAwesomeIcon icon={faHtml5} />
 								<FontAwesomeIcon icon={faCss3Alt} />
 								<FontAwesomeIcon icon={faBootstrap} />
@@ -37,16 +36,13 @@ function About() {
 								<FontAwesomeIcon icon={faLaravel} />
 								<FontAwesomeIcon icon={faDatabase} />
 
-							</p>
+							</p> */}
 						</div>
-
-
-
 
 					</div>
 					<div className="col-lg-8 col-md-6 p-2 d-flex align-items-center">
 
-						<p>Welcome to my portfolio! Please take a look around and check out some of my projects! I am a Junior Full-Stack Developer and recent bootcamp graduate. One of the reasons that I decided to become a developer is because I love that magic feeling of creating something from nothing. That’s why, when I’m not writing code, you will probably find me knitting, sewing, and making my own clothes. It is so satisfying to put hard work and effort into a project and get something wonderful at the end that leaves you thinking, “Wow! Did <i>I</i> make that?”</p>
+						<p>Welcome to my portfolio! Please take a look around and check out some of my projects! One of the reasons that I decided to become a developer is because I love that magic feeling of creating something from nothing. That’s why, when I’m not writing code, you will probably find me knitting, sewing, and making my own clothes. It is so satisfying to put hard work and effort into a project and get something wonderful at the end that leaves you thinking, “Wow! Did <i>I</i> make that?”</p>
 					</div>
 				</div>
 
@@ -55,29 +51,7 @@ function About() {
 					</div>
 				</div>
 
-
 			</div>
-
-
-			{/* <div className=" card text-center">
-
-				<div className="card-body bg-dark text-light">
-					<h5 className="card-title">Current Tech Stack:</h5>
-					<p className="card-text">
-						<FontAwesomeIcon icon={faHtml5} />
-						<FontAwesomeIcon icon={faCss3Alt} />
-						<FontAwesomeIcon icon={faBootstrap} />
-						<FontAwesomeIcon icon={faJs} />
-						<FontAwesomeIcon icon={faReact} />
-						<FontAwesomeIcon icon={faPhp} />
-						<FontAwesomeIcon icon={faLaravel} />
-						<FontAwesomeIcon icon={faDatabase} />
-
-					</p>
-
-				</div>
-
-			</div> */}
 
 		</div>
 	)

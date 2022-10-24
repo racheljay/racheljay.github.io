@@ -1,5 +1,5 @@
-import React, {useContext} from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import AppContext from '../utilities/AppContext';
@@ -8,10 +8,7 @@ import AppContext from '../utilities/AppContext';
 
 function Nav(props) {
 
-  const {currentPage} = useContext(AppContext);
-
-  
-
+  const { currentPage } = useContext(AppContext);
 
   return (
     <>
@@ -32,7 +29,7 @@ function Nav(props) {
             <li className="nav-item">
               <Link to="/projects"
                 className={"nav-link " + (currentPage === 'projects' ? "active" : "")}
-                >Projects<span className="sr-only">(current)</span></Link>
+              >Projects<span className="sr-only">(current)</span></Link>
             </li>
 
             <li className="nav-item">
@@ -40,18 +37,17 @@ function Nav(props) {
                 className={"nav-link " + (currentPage === 'links' ? "active" : "")}>Links<span className="sr-only">(current)</span></Link>
             </li>
 
-            <li className={"nav-item dropdown " + (currentPage === 'blogs' ? "active" : "")}>
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {/* <li className={"nav-item dropdown " + (currentPage === 'blogs' ? "active" : "")}>
+              <div className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Blogs
-        </a>
+              </div>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <Link to="postwork-blog" className="dropdown-item" href="#">Post Work Blog</Link>
                 <div className="dropdown-divider"></div>
                 <Link to="bootcamp-blog" className="dropdown-item" href="#">Bootcamp Blog</Link>
-                
-              </div>
-            </li>
 
+              </div>
+            </li> */}
 
           </ul>
         </div>
