@@ -5,44 +5,48 @@
             "link": "https://racheljay.github.io/digital-clock/",
             "img": "./img/clock-screenshot600.png",
             "week": "Prework: Week Four",
-            "repo": "https://github.com/racheljay/digital-clock"
+            "repo": "https://github.com/racheljay/digital-clock",
+            "desc": "Digital clock utilizing the javascript time object."
         },
         {
             "name": "Mind Reader",
             "link": "https://mind-reader-538bb.web.app/",
             "img": "img/mind-reader-react.png",
             "week": "Frontend: Week 1",
-            "repo": "https://github.com/racheljay/mind-reader"
-          },
+            "repo": "https://github.com/racheljay/mind-reader",
+            "desc": "Fun game built with state management."
+        },
         {
             "name": "Weather App",
             "link": "https://racheljay.github.io/async-weather-app/",
             "img": "img/weather600.png",
             "week": "Frontend: Week 2",
-            "repo": "https://github.com/racheljay/async-weather-app"
+            "repo": "https://github.com/racheljay/async-weather-app",
+            "desc": "App displaying temperature and weather conditions using a weather API."
         },
         {
             "name": "Tic-Tac-Toe",
             "link": "https://racheljay.github.io/tic-tac-toe",
             "img": "img/tictac600.png",
             "week": "Frontend: Week 3",
-            "repo": "https://github.com/racheljay/tic-tac-toe"
+            "repo": "https://github.com/racheljay/tic-tac-toe",
+            "desc": "Two player tic-tac-toe with score keeping feature."
         },
         {
             "name": "Calculator",
             "link": "https://react-calculator-9a6df.web.app/",
             "img": "img/calc.png",
             "week": "Frontend: Week 3",
-            "repo": "https://github.com/racheljay/react-calculator"
+            "repo": "https://github.com/racheljay/react-calculator",
+            "desc": "Basic calculator built in react."
         },
         {
             "name": "To-Do List",
             "link": "https://to-do-list-c2c89.web.app/",
             "img": "img/to-do-list.png",
             "week": "Frontend: Week 4",
-            "repo": "https://github.com/racheljay/to-do-list"
+            "repo": "https://github.com/racheljay/to-do-list",
+            "desc": "Simple todo list with CRUD functionality."
         }
-
-    
-    ] 
+    ]
 }

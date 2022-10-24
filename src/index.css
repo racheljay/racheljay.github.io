@@ -43,6 +43,15 @@ nav {
   border-radius: 50%;
 }
 
+.card-text {
+  font-family: "Helvetica Neue";
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
 #landing {
   min-height: 100vh;
   display: flex;
@@ -66,6 +75,10 @@ text-decoration: underline;
   font-weight: bold;
   text-shadow: 3px 3px 1px darkred; 
   pointer-events: fill;
+}
+
+#github-logo {
+  font-size: 40px;
 }
 
 #landing > h2 {

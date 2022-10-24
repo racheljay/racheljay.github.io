@@ -45,13 +45,12 @@ function Projects(props) {
                     <a href={item.link} targe="_blank" rel="noopener noreferrer">
                     <h5 className="card-title">{item.name}</h5>
                     </a>
-                    <p>Big mood thundercats cold-pressed bitters celiac literally. Squid mustache hexagon church-key chillwave. Tousled occupy tilde lyft sartorial. Literally JOMO vegan swag tilde. Narwhal quinoa polaroid pitchfork try-hard dreamcatcher fanny pack yes plz green juice. Flexitarian +1 next level, street art vibecession pinterest la croix cold-pressed pabst tofu keffiyeh praxis synth.</p>
-                    {/* <p className="card-text">{item.week}</p> */}
+                    <p className="card-text">{item.desc}</p>
                   </div>
 
                   <div className="col-3">
 
-                  <h3 className="card-text pt-2"><a href={item.repo} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></h3>
+                  <div id="github-logo" className="card-text pt-2"><a href={item.repo} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></div>
                   </div>
 
 

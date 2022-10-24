@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBootstrap, faHtml5, faCss3Alt, faJs, faReact, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBootstrap, faHtml5, faCss3Alt, faJs, faReact, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons';
+// import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import AppContext from '../utilities/AppContext';
 
 
@@ -26,7 +26,7 @@ function About() {
 
 							<img src="img/umbrella.png" id="bio-pic" alt="" />
 
-							<p className="text-center">
+							{/* <p className="text-center">
 								<FontAwesomeIcon icon={faHtml5} />
 								<FontAwesomeIcon icon={faCss3Alt} />
 								<FontAwesomeIcon icon={faBootstrap} />
@@ -36,7 +36,7 @@ function About() {
 								<FontAwesomeIcon icon={faLaravel} />
 								<FontAwesomeIcon icon={faDatabase} />
 
-							</p>
+							</p> */}
 						</div>
 
 					</div>
